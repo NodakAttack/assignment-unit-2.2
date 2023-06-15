@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We created a variable called name and the value is 'Dane'
+// If 'Dane' is equal to Mary, type and value, then output 'Hi, Mary!'
+// If false, output How do you do?
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Created a variable named secret
+// Created a variable named code with a value of 123
+// If code is equal to 123, type and value, assign variable secret 'super' then code = 246
+// code is now equal to 246 which is >250, do not execute next step
+// output secret which should be 'super'
 
 //CODE
 /*
@@ -70,8 +71,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// Created 3 variables; isStudent, age, zip, all with values
+// checks these variables in if else, one worked with the output of "welcome to prime"
 // 
 //
 
@@ -129,6 +130,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
+// FIX you would also need to set colorTwo to purple as well
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +147,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// Fix code looks like it should work, time is set as a constant to it will always say "throw away food"
+
 /*
 let temp = 40;
 const time = 4;
@@ -155,6 +161,8 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//Fix greater than or equal to is opposite?
 
 /*
 let age = 21;
